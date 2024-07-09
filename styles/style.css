@@ -23,7 +23,7 @@ header{
 
 /* Header section style */
 div.banner{
-    background-image:linear-gradient(180deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0) 100%), url("/images/Banner\ Image.png");
+    /* background-image:linear-gradient(180deg, rgba(7, 2, 17,1),rgba(7, 2, 17, 0) 100%),url(); */
     background-repeat: no-repeat;
     
     min-height: 720px;
