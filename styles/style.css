@@ -8,6 +8,12 @@ body{
     padding: 0;
 }
 
+/* Common Font-family */
+
+.font-2{
+    font-family: Inter;
+}
+
 /* Common width */
 
 header{
@@ -35,6 +41,7 @@ header .greetings-title{
     color: white;
     font-size: 38px;
     font-weight: 400;
+    line-height: 48px;
     text-align: center;
     font-family: Merriweather;
     margin-top: 212px;
@@ -45,7 +52,46 @@ header .banner-title{
     width: 760px;
     color: white;
     font-size: 86px;
+    font-weight: 900;
+    line-height: 114px;
     text-align: center;
     font-family: Merriweather;
     margin: 0 413px 212px 413px;
+}
+
+/* Offer section start */
+main .offer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 478px 144px 478px;
+}
+
+main .offer .offer-title{
+    color: rgb(255, 0, 0);
+    font-size: 106px;
+    line-height: 128px;
+    font-weight: 700;
+    margin-bottom: 58px;
+    text-align: center;
+}
+main .offer .offer-gratings{
+    color: rgb(255, 0, 0);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main .offer .offer-brief{
+    color: rgb(255, 0, 0);
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+    margin-bottom: 58px;
+    text-align: center;
+}
+main .offer img{
+    height: 600px;
+    display: block;
 }
